@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+	<link href="https://fonts.google.com/css?family=Open+Sans&display=swap" rel="stylesheet" >
+
+
+
+</head>
+
+
+
+<body>
+    <div class="centercal">
+
+    	<form name="cal1">
+
+
+    		<input type="text" name="" value="Calculator" id="calname" >
+    		<input type="text" name="display1" id="display_ans" >
+
+
+    		<div class="layer2">
+    			<input type="button" name="" class="oprt" value="C" id="cls" onclick="cal1.display1.value = '' ">
+    			<input type="button" name="" class="oprt" value="=" onclick="cal1.display1.value = eval(cal1.display1.value) " >
+    		</div>
+
+
+
+    		<div class="layer1" >
+    			<input type="button" name="" class="num" value="7" onclick="cal1.display1.value += '7' ">
+    			<input type="button" name="" class="num" value="8" onclick="cal1.display1.value += '8' ">
+    			<input type="button" name="" class="num" value="9" onclick="cal1.display1.value += '9' ">
+    			<input type="button" name="" class="oprt" value="*" onclick="cal1.display1.value += '*' ">
+    		</div>
+
+
+
+    		<div class="layer1" >
+    			<input type="button" name="" class="num" value="4" onclick="cal1.display1.value += '4' ">
+    			<input type="button" name="" class="num" value="5" onclick="cal1.display1.value += '5' ">
+    			<input type="button" name="" class="num" value="6" onclick="cal1.display1.value += '6' ">
+    			<input type="button" name="" class="oprt" value="-" onclick="cal1.display1.value += '-' ">
+    		</div>
+
+
+
+    	    <div class="layer1" >
+    			<input type="button" name="" class="num" value="1" onclick="cal1.display1.value += '1' ">
+    			<input type="button" name="" class="num" value="2" onclick="cal1.display1.value += '2' ">
+    			<input type="button" name="" class="num" value="3" onclick="cal1.display1.value += '3' ">
+    			<input type="button" name="" class="oprt" value="+" onclick="cal1.display1.value += '+' ">
+    		</div>
+
+
+
+
+    		<div class="layer1" >
+    			<input type="button" name="" class="oprt" value="." onclick="cal1.display1.value += '.' ">
+    			<input type="button" name="" class="num" value="0" onclick="cal1.display1.value += '0' ">
+    			<input type="button" name="" class="oprt" value="%" onclick="cal1.display1.value += '%' ">
+    			<input type="button" name="" class="oprt" value="/" onclick="cal1.display1.value += '/' ">
+    	    </div>
+
+
+
+
+
+
+
+
+    		
+    	</form>
+    	
+
+
+    </div>
+
+
+
+
+
+
+</body>
+</html>

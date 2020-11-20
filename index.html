@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+ <html>
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+ 
+ <link rel="stylesheet" type="text/css" href="index.css">
+ <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+  
+</head>
+<body>
+<p class="datetime">Date/Time: <span id="datetime" ></span></p>
+
+
+<section>
+ <h1> Ak500 </h1>
+
+ <h2> HOME PAGE </h2>
+     
+ <div class="centerDiv">
+  <div class="details">
+   <label>Tools</label><br>
+   <div class="dropdown">
+  <button class="dropbtn">Select Tools</button>
+  <div class="dropdown-content">
+    <a href="calculator.html">Calculator</a>
+    <a href="texttospeech.html">Text To Speech</a>
+    <a href="speech-recognition.html">Speech To Text</a>
+    <a href="#">Grade</a>
+  </div>
+</div>
+  </div>
+
+  <div class="imgdiv">
+   <img src="img.png" width="200" height="200" class="imgchange">
+  </div>
+
+ 
+  
+ </div>
+</section>
+
+<script>
+	var dt = new Date();
+	document.getElementById("datetime").innerHTML = dt.toLocaleString();
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+
+
+
+*{
+	margin: 0; padding: 0; box-sizing: border-box;}
+
+	body{
+		background-image: url('img2.jpeg');
+		background-size: 100% 100%;
+	}
+
+	.centercal{
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	form{
+		width: 400px; height: 520px;
+		box-shadow: 0 0 10px 1px grey;
+	}
+
+	#calname {
+		width: inherit;
+		font-size: 0.8rem;
+		background-color: #303030;
+		color: white;
+		border: none;
+		outline: none;
+		padding: 2px 0 2px 10px;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	#display_ans{
+		width: inherit;
+		height: 80px;
+		background-color: #303030;
+		font-size: 2rem;
+		text-align: right;
+		color: white;
+		outline: none;
+		border: none;
+	}
+
+
+	.layer1{
+		width: inherit;
+		height: 90px;
+		display: flex;
+		justify-content: center;
+	}
+
+
+	.layer2{
+		width: inherit;
+		height: 60px;
+		display: flex;
+		justify-content: center;
+	}
+
+
+	input{
+		flex: 1;
+		font-size: 1.4rem;
+		color: white;
+		border: 1px solid #504f4f;
+		outline: none;
+
+	}
+
+
+	.num{
+		background-color: #101011;
+		color: white;
+	}
+
+	.oprt{
+		background-color: #303030;
+	}
+
+	#cls{
+		font-size: 1.4rem;
+	}
+
+	input:hover{
+		background-color: #474747;
+		border: 1px solid grey;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
