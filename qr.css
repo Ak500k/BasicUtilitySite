@@ -2,7 +2,7 @@ body {
     padding: 20px;
 }
 
-input {
+#qr-text{
     padding: 5px;
     background-color: transparent;
     border: none;
