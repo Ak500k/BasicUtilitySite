@@ -6,7 +6,7 @@ input{
     padding: 5px;
     background-color: transparent;
     border: none;
-    border-bottom: solid 4px #8c52ff;
+    border-bottom: solid 4px #d64cd9;
     width:250px;
     font-size: 16px;   
 }
@@ -14,7 +14,7 @@ input{
 
 
 .qr-btn{
-    background-color: #8c52ff;
+    background-color:#d64cd9;
     padding: 8px;
     color: white;
     cursor: pointer;
