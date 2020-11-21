@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>QR Code Generator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='qr.css'>
+    
+</head>
+<body>
+    <h1>
+        QR Code Generator
+    </h1>
+    <div>
+        <input id="qr-text" type="text" placeholder="Text to Generate QR Code" />
+        
+    </div> 
+    <br/>
+    <div>
+        <button class="qr-btn" onclick="generateQRCode()"> Create QR Code </button>
+    </div>  
+    <br/>
+
+    <p id="qr-result">
+        This is deault QR code: 
+    </p>
+    <canvas id="qr-code"></canvas>
+
+        
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>    
+<script src='qr.js'></script>
+</body>
+</html>

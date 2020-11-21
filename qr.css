@@ -1,0 +1,22 @@
+body {
+    padding: 20px;
+}
+
+input {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 4px #8c52ff;
+    width: 25px;
+    font-size: 16px;   
+}
+
+
+
+.qr-btn{
+    background-color: #8c52ff;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+    
+}
