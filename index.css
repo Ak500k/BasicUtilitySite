@@ -6,7 +6,8 @@
 
 *{padding: 0; margin: 0; box-sizing: border-box; font-family: 'Luckiest Guy', cursive;}
 
-section{width: 100%; height: 100vh; display: flex; justify-content: center; flex-direction: column; align-items: center; background: #2ed573}
+section{width: 100%; height: 100vh; display: flex; justify-content: center; flex-direction: column; align-items: center; 
+background: linear-gradient(to right, #00AAFF, #00FF6C);  }
 
 
 
