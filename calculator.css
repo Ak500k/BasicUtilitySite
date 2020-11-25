@@ -5,7 +5,7 @@
 	margin: 0; padding: 0; box-sizing: border-box;}
 
 	body{
-		background-image: url('img2.jpeg');
+		background: linear-gradient(to right, #00AAFF, #00FF6C); 
 		background-size: 100% 100%;
 	}
 
