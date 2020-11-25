@@ -1,5 +1,6 @@
 body {
     font-family: arial;
+    background: linear-gradient(to right, #00AAFF, #00FF6C); 
 }
 button {
     padding:10px;
