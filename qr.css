@@ -1,5 +1,6 @@
 body {
     padding: 20px;
+    background: linear-gradient(to right, #00AAFF, #00FF6C); 
 }
 
 input{
